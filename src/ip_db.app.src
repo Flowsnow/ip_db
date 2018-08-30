@@ -1,0 +1,12 @@
+{application, ip_db,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { ip_db_app, []}},
+  {env, []}
+ ]}.
